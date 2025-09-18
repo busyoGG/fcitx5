@@ -538,10 +538,12 @@ void WaylandIMInputContextV2::modifiersCallback(uint32_t /*serial*/,
                           mods_locked, 0, 0, group);
     server_->instance()->updateXkbStateMask(
         server_->group()->display(), mods_depressed, mods_latched, mods_locked);
-    mask = xkb_state_serialize_mods(
-        server_->state_.get(),
-        static_cast<xkb_state_component>(XKB_STATE_MODS_DEPRESSED |
-                                         XKB_STATE_MODS_LATCHED));
+    // mask = xkb_state_serialize_mods(
+    //     server_->state_.get(),
+    //     static_cast<xkb_state_component>(XKB_STATE_MODS_DEPRESSED |
+    //                                      XKB_STATE_MODS_LATCHED));
+    mask = xkb_state_serialize_mods(server_->state_.get(),
+                                    XKB_STATE_MODS_EFFECTIVE);
 
     server_->modifiers_ = 0;
     if (mask & server_->stateMask_.shift_mask) {
@@ -665,7 +667,7 @@ void WaylandIMInputContextV2::updatePreeditDelegate(InputContext *ic) const {
     }
 
     // Validate not empty and within wayland limit.
-    if (preedit.textLength() > 0 &&
+    if (preedit.textLength() >= 0 &&
         preedit.textLength() < WaylandIMServerBase::safeStringLimit) {
         if (cursorStart < 0) {
             cursorStart = cursorEnd = preedit.textLength();
