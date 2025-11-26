@@ -730,19 +730,32 @@ int XCBUI::dpiByPosition(int x, int y) {
 }
 
 int XCBUI::scaledDPI(int dpi) {
-    if (!*parent_->config().perScreenDPI ||
-        parent_->xcb()->call<IXCBModule::isXWayland>(displayName_)) {
+    bool is_xwayland =
+        parent_->xcb()->call<IXCBModule::isXWayland>(displayName_);
+    if (!*parent_->config().perScreenDPI || is_xwayland) {
         // CLASSICUI_DEBUG() << "Use font option dpi: " << fontOption_.dpi;
+
         if (fontOption_.dpi > 0) {
             return fontOption_.dpi;
         }
-        if (screenDpi_ >= 96) {
-            // Nowadays their should not be tiny dpi screen I assume.
-            // In ancient days, there used to be invalid DPI value that make
-            // font extremely tiny.
-            return screenDpi_;
+
+        if (is_xwayland && *parent_->config().xwaylandScaleMode) {
+            int scale = std::ceil((double)dpi / screenDpi_);
+            int scaledDpi = screenDpi_ * scale;
+            if (scaledDpi >= 96) {
+                return scaledDpi;
+            }
+            return -1;
+        } else {
+
+            if (screenDpi_ >= 96) {
+                // Nowadays their should not be tiny dpi screen I assume.
+                // In ancient days, there used to be invalid DPI value that make
+                // font extremely tiny.
+                return screenDpi_;
+            }
+            return -1;
         }
-        return -1;
     }
     if (dpi < 0) {
         return fontOption_.dpi;

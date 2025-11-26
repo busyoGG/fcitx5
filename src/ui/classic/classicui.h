@@ -177,6 +177,15 @@ FCITX_CONFIGURATION(
         {},
         {},
         {_("This option will be always disabled on XWayland.")}};
+    OptionWithAnnotation<bool, ToolTipAnnotation> xwaylandScaleMode{
+        this,
+        "XWaylandScaleMode",
+        _("Enable To Use Maximum DPI Scale, Disable To Use Minimum DPI Scale "
+          "on X11"),
+        false,
+        {},
+        {},
+        {_("This option will be always disabled on X11.")}};
     Option<int, IntConstrain, DefaultMarshaller<int>, ToolTipAnnotation>
         forceWaylandDPI{
             this,
