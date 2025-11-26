@@ -4,15 +4,15 @@
 #
 # Translators:
 # zenfas, 2024
-# hoanghuy309 <hoanghuy309@gmail.com>, 2025
+# Huy Võ <hoanghuy309@gmail.com>, 2025
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx5\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2025-07-16 20:24+0000\n"
+"POT-Creation-Date: 2025-11-24 20:24+0000\n"
 "PO-Revision-Date: 2017-11-23 04:14+0000\n"
-"Last-Translator: hoanghuy309 <hoanghuy309@gmail.com>, 2025\n"
+"Last-Translator: Huy Võ <hoanghuy309@gmail.com>, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/fcitx/teams/12005/vi/)\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "${1}không tìm thấy."
 msgid "${1} works properly."
 msgstr "${1} chạy bình thường."
 
-#: src/lib/fcitx/instance.cpp:445
+#: src/lib/fcitx/instance.cpp:436
 msgid "(Not available)"
 msgstr "(Không khả dụng)"
 
@@ -318,7 +318,7 @@ msgstr "Dưới đáy"
 
 #: src/ui/classic/theme.h:44
 msgid "Bottom Center"
-msgstr "Trung tâm ở đáy"
+msgstr "Giữa Ở Dưới"
 
 #: src/ui/classic/theme.h:44
 msgid "Bottom Left"
@@ -436,15 +436,15 @@ msgstr "CapsLock"
 
 #: src/ui/classic/theme.h:43 src/ui/classic/theme.h:55
 msgid "Center"
-msgstr "Trung tâm"
+msgstr "Giữa"
 
 #: src/ui/classic/theme.h:42
 msgid "Center Left"
-msgstr "Trung tâm bên trái"
+msgstr "Giữa Ở Trái"
 
 #: src/ui/classic/theme.h:43
 msgid "Center Right"
-msgstr "Trung tâm bên phải"
+msgstr "Giữa Ở Phải"
 
 #: data/fcitx5-configtool.desktop.in.in:4
 msgid "Change Fcitx 5 Configuration"
@@ -498,30 +498,25 @@ msgctxt "Key name"
 msgid "Community"
 msgstr "Cộng đồng"
 
-#: src/im/keyboard/keyboard.cpp:719
+#: src/im/keyboard/keyboard.cpp:722
 msgid "Completion"
 msgstr "Hoàn thành"
 
-#: src/im/keyboard/keyboard.cpp:710
+#: src/im/keyboard/keyboard.cpp:713
 msgid "Completion is disabled."
 msgstr "Hoàn thành bị vô hiệu hóa."
 
-#: src/im/keyboard/keyboard.cpp:713
+#: src/im/keyboard/keyboard.cpp:716
 msgid "Completion is enabled temporarily."
 msgstr "Hoàn thành tạm thời được kích hoạt."
 
-#: src/im/keyboard/keyboard.cpp:715
+#: src/im/keyboard/keyboard.cpp:718
 msgid "Completion is enabled."
 msgstr "Hoàn thành được kích hoạt."
 
 #: data/fcitx5-diagnose.sh:1692
 msgid "Configuration:"
 msgstr "Cấu hình:"
-
-#: src/ui/classic/xcbtraywindow.cpp:55
-#: src/modules/notificationitem/dbusmenu.cpp:254
-msgid "Configure"
-msgstr "Cấu hình"
 
 #: src/im/keyboard/keyboard.h:46 src/modules/quickphrase/quickphrase.h:31
 msgid "Control"
@@ -603,7 +598,7 @@ msgstr "Vô hiệu hóa bộ gõ"
 msgid "Debug information from dbus:"
 msgstr "Thông tin gỡ lỗi từ dbus:"
 
-#: src/lib/fcitx/inputmethodmanager.cpp:153 src/lib/fcitx/instance.cpp:392
+#: src/lib/fcitx/inputmethodmanager.cpp:153 src/lib/fcitx/instance.cpp:383
 #: src/ui/classic/themes/default/theme.conf.in:2
 msgid "Default"
 msgstr "Mặc định"
@@ -736,7 +731,7 @@ msgstr "Bật emoji trong cụm từ nhanh"
 
 #: src/ui/classic/classicui.h:196
 msgid "Enable fractional scale under Wayland"
-msgstr ""
+msgstr "Kích hoạt tỷ lệ phân đoạn trong Wayland"
 
 #: src/im/keyboard/keyboard.h:72
 msgid "Enable hint by default"
@@ -845,7 +840,7 @@ msgstr ""
 
 #: src/modules/quickphrase/quickphrase.h:47
 msgid "Fallback Spell check language"
-msgstr "Kiểm tra chính tả ngôn ngữ dự phòng"
+msgstr "Ngôn ngữ kiểm tra Chính Tả dự phòng"
 
 #: src/lib/fcitx-utils/key.cpp:117
 msgctxt "Key name"
@@ -883,9 +878,9 @@ msgid ""
 "language. It also features variant choice of addons that improve your typing "
 "experience."
 msgstr ""
-"Fcitx là một khung kiểu gõ. Nó có thể giúp bạn gõ ngôn ngữ của riêng bạn. Nó "
-"cũng có tính năng lựa chọn biến thể của addon giúp cải thiện trải nghiệm "
-"đánh máy của bạn."
+"Fcitx là một khuôn khổ kiểu gõ. Nó có thể giúp bạn gõ ngôn ngữ của riêng "
+"bạn. Nó cũng có tính năng lựa chọn biến thể của addon giúp cải thiện trải "
+"nghiệm đánh máy của bạn."
 
 #: src/modules/wayland/waylandmodule.cpp:651
 msgid ""
@@ -897,6 +892,13 @@ msgid ""
 "im-config on Debian/Ubuntu. For more details see https://fcitx-im.org/wiki/"
 "Using_Fcitx_5_on_Wayland#KDE_Plasma"
 msgstr ""
+"Fcitx phải được KWin khởi chạy trong KDE Wayland để sử dụng giao diện kiểu "
+"gõ Wayland. Điều này có thể cải thiện trải nghiệm khi sử dụng Fcitx trên "
+"Wayland. Để định cấu hình tính năng này, bạn cần vào \"Cài đặt hệ thống\" -> "
+"\"Bàn phím ảo\" và chọn \"Fcitx 5\" từ đó. Bạn cũng có thể cần tắt các công "
+"cụ khởi chạy kiểu gõ, chẳng hạn như imsettings trên Fedora hoặc im-config "
+"trên Debian/Ubuntu. Để biết thêm chi tiết, hãy xem https://fcitx-im.org/wiki/"
+"Using_Fcitx_5_on_Wayland#KDE_Plasma"
 
 #: data/fcitx5-diagnose.sh:949
 msgid "Fcitx version: ${1}"
@@ -961,6 +963,9 @@ msgid ""
 "Control+Space for the first time, if Control is held, following key press of "
 "Space will enumerate the input method."
 msgstr ""
+"Ví dụ: nếu Control+Phím cách là phím chuyển đổi, sau khi nhấn Control+Phím "
+"cách lần đầu tiên, nếu Control được giữ, thì lần nhấn Phím cách sau sẽ liệt "
+"kê phương thức nhập."
 
 #: src/modules/wayland/waylandmodule.cpp:738
 msgid "For more details see https://fcitx-im.org/wiki/Using_Fcitx_5_on_Wayland"
@@ -1068,12 +1073,12 @@ msgstr "Xanh lá"
 msgid "Group"
 msgstr "Nhóm"
 
-#: src/lib/fcitx/instance.cpp:449
+#: src/lib/fcitx/instance.cpp:440
 #, c++-format
 msgid "Group {0}: {1}"
 msgstr "Nhóm {0}: {1}"
 
-#: src/lib/fcitx/instance.cpp:394
+#: src/lib/fcitx/instance.cpp:385
 #, c++-format
 msgid "Group {}"
 msgstr "Nhóm {}"
@@ -1307,8 +1312,8 @@ msgstr ""
 msgid "Image"
 msgstr "Hình ảnh"
 
-#: src/im/keyboard/keyboard.cpp:718 src/lib/fcitx/instance.cpp:483
-#: src/lib/fcitx/instance.cpp:712 src/lib/fcitx/instance.cpp:884
+#: src/im/keyboard/keyboard.cpp:721 src/lib/fcitx/instance.cpp:474
+#: src/lib/fcitx/instance.cpp:703 src/lib/fcitx/instance.cpp:875
 #: src/modules/notificationitem/notificationitem.cpp:148
 #: src/modules/notificationitem/notificationitem.cpp:236
 #: src/modules/xcb/xcbconnection.cpp:564 data/org.fcitx.Fcitx5.desktop.in.in:3
@@ -1319,11 +1324,16 @@ msgstr "Phương Thức Nhập"
 
 #: data/fcitx5-configtool.desktop.in.in:3
 msgid "Input Method Configuration"
-msgstr "Cấu hình Kiểu Gõ"
+msgstr "Cấu Hình Kiểu Gõ"
 
 #: data/fcitx5-diagnose.sh:717
 msgid "Input Method Related Environment Variables: "
 msgstr "Biến môi trường liên quan kiểu gõ:"
+
+#: src/ui/classic/xcbtraywindow.cpp:55
+#: src/modules/notificationitem/dbusmenu.cpp:254
+msgid "Input Method Settings"
+msgstr ""
 
 #: data/fcitx5-diagnose.sh:1604
 msgid "Input Methods:"
@@ -1363,8 +1373,8 @@ msgid ""
 "commonly used by modules like clipboard or quickphrase."
 msgstr ""
 "Các kiểu gõ có thể có cách thiết lập khác nhau trong cấu hình riêng của "
-"chúng. Điều này thường được sử dụng bởi các mô-đun như clipboard hoặc "
-"quickphrase."
+"chúng. Điều này thường được sử dụng bởi các mô-đun như bảng nhớ tạm hoặc cụm "
+"từ nhanh."
 
 #: src/lib/fcitx-utils/key.cpp:239
 msgctxt "Key name"
@@ -1373,7 +1383,7 @@ msgstr "Chèn"
 
 #: src/lib/fcitx/globalconfig.cpp:241
 msgid "Interval of saving user data in minutes"
-msgstr "Khoảng thời gian lưu dữ liệu người dùng tính bằng phút"
+msgstr "Chu kỳ lưu dữ liệu người dùng theo phút"
 
 #: data/fcitx5-diagnose.sh:1499
 msgid "Invalid addon config file ${1}."
@@ -1435,16 +1445,16 @@ msgstr "Giữ đối tượng bàn phím ảo cho Giao thức V2 (Cần khởi �
 msgid "Key"
 msgstr "Phím"
 
-#: src/im/keyboard/keyboard.cpp:341 src/im/keyboard/keyboard.conf.in.in:2
+#: src/im/keyboard/keyboard.cpp:344 src/im/keyboard/keyboard.conf.in.in:2
 msgid "Keyboard"
 msgstr "Bàn phím"
 
-#: src/im/keyboard/keyboard.cpp:259
+#: src/im/keyboard/keyboard.cpp:262
 #, c++-format
 msgid "Keyboard - {0}"
 msgstr "Bàn phím - {0}"
 
-#: src/im/keyboard/keyboard.cpp:277
+#: src/im/keyboard/keyboard.cpp:280
 #, c++-format
 msgid "Keyboard - {0} - {1}"
 msgstr "Bàn phím - {0} - {1}"
@@ -1581,7 +1591,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:67
 msgctxt "Key name"
 msgid "Keypad Enter"
-msgstr ""
+msgstr "Phím Nhấn Enter"
 
 #: src/lib/fcitx-utils/key.cpp:68
 msgctxt "Key name"
@@ -2029,7 +2039,7 @@ msgstr "NumLock"
 msgid "Number of entries"
 msgstr ""
 
-#: src/im/keyboard/keyboard.cpp:704
+#: src/im/keyboard/keyboard.cpp:707
 msgid ""
 "Only emoji support is found. To enable spell checking, you may need to "
 "install spell check data for the language."
@@ -2156,15 +2166,15 @@ msgctxt "Key name"
 msgid "Power Off"
 msgstr "Tắt Nguồn"
 
-#: src/lib/fcitx/instance.cpp:884
+#: src/lib/fcitx/instance.cpp:875
 msgid "Preedit"
 msgstr ""
 
-#: src/lib/fcitx/instance.cpp:886
+#: src/lib/fcitx/instance.cpp:877
 msgid "Preedit disabled"
 msgstr ""
 
-#: src/lib/fcitx/instance.cpp:885
+#: src/lib/fcitx/instance.cpp:876
 msgid "Preedit enabled"
 msgstr ""
 
@@ -2361,8 +2371,7 @@ msgid ""
 msgstr ""
 "Gửi cấu hình bố cục bàn phím đến Wayland Compositor từ FCITX chưa được hỗ "
 "trợ trên máy tính để bàn hiện tại. Bạn vẫn có thể sử dụng chuyển đổi bố cục "
-"nội bộ của FCITX bằng cách thêm bố cục làm phương thức đầu vào vào nhóm kiểu "
-"gõ."
+"nội bộ của FCITX bằng cách thêm bố cục là kiểu gõ vào nhóm kiểu gõ."
 
 #: src/ui/classic/theme.h:188
 msgid "Separator Background"
@@ -2516,17 +2525,17 @@ msgctxt "Key name"
 msgid "Suspend"
 msgstr "Đình chỉ"
 
-#: src/lib/fcitx/instance.cpp:484 src/lib/fcitx/instance.cpp:713
+#: src/lib/fcitx/instance.cpp:475 src/lib/fcitx/instance.cpp:704
 #: src/modules/xcb/xcbconnection.cpp:565
 msgid "Switch group"
 msgstr "Chuyển đổi nhóm"
 
-#: src/lib/fcitx/instance.cpp:485 src/modules/xcb/xcbconnection.cpp:566
+#: src/lib/fcitx/instance.cpp:476 src/modules/xcb/xcbconnection.cpp:566
 #, c++-format
 msgid "Switch group to {0}"
 msgstr ""
 
-#: src/lib/fcitx/instance.cpp:714
+#: src/lib/fcitx/instance.cpp:705
 #, c++-format
 msgid "Switched group to {0}"
 msgstr ""
@@ -2607,6 +2616,14 @@ msgid ""
 "single modifier key like Shift, so it can be used with just a single key "
 "press, but won't be triggered by accident if you never activate input method."
 msgstr ""
+"Phím này chỉ có thể được sử dụng nếu trạng thái hiện tại đang hoạt động hoặc "
+"bị vô hiệu hóa bằng phím này. Ví dụ: bạn có hai kiểu gõ: tiếng Anh ở trạng "
+"thái không hoạt động, Bính âm là trạng thái hoạt động. Nó có thể được sử "
+"dụng để chuyển từ Bính âm trở lại tiếng Anh và chuyển lại về Bính âm sau đó. "
+"Nếu trạng thái ban đầu là tiếng Anh sẽ không làm gì cả. Phím này có thể được "
+"cấu hình thành một số phím bổ trợ đơn giản như Shift, do đó, nó có thể được "
+"sử dụng chỉ bằng một lần nhấn phím nhưng sẽ không được kích hoạt một cách "
+"ngẫu nhiên nếu bạn không bao giờ kích hoạt kiểu gõ."
 
 #: src/ui/classic/theme.h:99 src/ui/classic/theme.h:107
 msgid "This option is only effective if image is not set."
@@ -2667,7 +2684,7 @@ msgstr ""
 
 #: src/ui/classic/theme.h:41
 msgid "Top Center"
-msgstr ""
+msgstr "Giữa Ở Trên"
 
 #: src/ui/classic/theme.h:41
 msgid "Top Left"
@@ -2782,6 +2799,8 @@ msgstr ""
 #: src/ui/classic/theme.h:157
 msgid "Use all horizontal space for highlight when it is vertical list"
 msgstr ""
+"Sử dụng tất cả khoảng trống theo chiều ngang để đánh dấu khi nó là danh sách "
+"dọc"
 
 #: src/ui/classic/classicui.h:152
 msgid "Use input method language to display text"
@@ -3006,6 +3025,9 @@ msgid ""
 "found. The package name of the configuration tool is usually fcitx5-"
 "configtool. Now it will open the configuration directory."
 msgstr ""
+"Bạn hiện đang chạy Fcitx5 với GUI, nhưng không thể tìm thấy fcitx5-config-"
+"qt. Tên gói của công cụ cấu hình thường là fcitx5-configtool. Bây giờ nó sẽ "
+"mở thư mục cấu hình."
 
 #: data/fcitx5-configtool.sh:138
 msgid ""
@@ -3014,6 +3036,9 @@ msgid ""
 "kde-config-fcitx5, or fcitx5-configtool. Now it will open the configuration "
 "directory."
 msgstr ""
+"Bạn hiện đang chạy KDE nhưng không tìm thấy công cụ cấu hình cho fcitx5. Tên "
+"gói của công cụ cấu hình thường là kcm-fcitx5, kde-config-fcitx5 hoặc fcitx5-"
+"configtool. Bây giờ nó sẽ mở thư mục cấu hình."
 
 #: data/fcitx5-configtool.sh:141
 msgid ""
@@ -3022,6 +3047,9 @@ msgid ""
 "tool is usually ukui-control-center, or fcitx5-configtool. Now it will open "
 "the configuration directory."
 msgstr ""
+"Bạn hiện đang chạy môi trường máy tính để bàn UKUI nhưng không tìm thấy công "
+"cụ cấu hình cho fcitx5. Tên gói của công cụ cấu hình thường là ukui-control-"
+"center hoặc fcitx5-configtool. Bây giờ nó sẽ mở thư mục cấu hình."
 
 #: data/fcitx5-diagnose.sh:1085
 msgid ""
@@ -3086,17 +3114,17 @@ msgstr "các biến môi trường sudo"
 msgid "version:"
 msgstr "phiên bản:"
 
-#: src/im/keyboard/keyboard.cpp:318
+#: src/im/keyboard/keyboard.cpp:321
 #, c++-format
 msgid "{0} (Not Available)"
 msgstr "{0} (Không khả dụng)"
 
-#: src/lib/fcitx/instance.cpp:443
+#: src/lib/fcitx/instance.cpp:434
 #, c++-format
 msgid "{0} (Not available)"
 msgstr "{0} (Không khả dụng)"
 
-#: src/lib/fcitx/instance.cpp:440
+#: src/lib/fcitx/instance.cpp:431
 #, c++-format
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
