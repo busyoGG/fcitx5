@@ -2793,8 +2793,8 @@ msgid "Use Per Screen DPI on X11"
 msgstr "在 X11 上针对不同屏幕使用单独的 DPI"
 
 #: src/ui/classic/classicui.h:183
-msgid "Enable To Use Maximum DPI Scale, Disable To Use Minimum DPI Scale on X11"
-msgstr "在 X11 上启用时使用最大 DPI 缩放，禁用时使用最小 DPI 缩放"
+msgid "Enable To Use Maximum DPI Scale, Disable To Use Minimum DPI Scale on Xwayland"
+msgstr "在 Xwayland 上启用时使用最大 DPI 缩放，禁用时使用最小 DPI 缩放"
 
 #: src/ui/classic/theme.h:157
 msgid "Use all horizontal space for highlight when it is vertical list"

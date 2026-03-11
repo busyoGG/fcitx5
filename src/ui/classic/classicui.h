@@ -181,7 +181,7 @@ FCITX_CONFIGURATION(
         this,
         "XWaylandScaleMode",
         _("Enable To Use Maximum DPI Scale, Disable To Use Minimum DPI Scale "
-          "on X11"),
+          "on Xwayland"),
         false,
         {},
         {},

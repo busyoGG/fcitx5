@@ -414,14 +414,19 @@ void XCBUI::initScreen() {
                             rect.setPosition(crtc->x, crtc->y);
                             auto outputWidth = output->mm_width;
                             auto outputHeight = output->mm_height;
+
                             if (crtc->rotation ==
                                     XCB_RANDR_ROTATION_ROTATE_90 ||
                                 crtc->rotation ==
                                     XCB_RANDR_ROTATION_ROTATE_270) {
                                 std::swap(outputWidth, outputHeight);
                             }
-                            int dpiX = 25.4 * crtc->width / outputWidth;
-                            int dpiY = 25.4 * crtc->height / outputHeight;
+                            // int dpiX = 25.4 * crtc->width / outputWidth;
+                            // int dpiY = 25.4 * crtc->height / outputHeight;
+
+                            double dpiX = 96 * (crtc->width / 1920.0);
+                            double dpiY = 96 * (crtc->height / 1080.0);
+
                             rect.setSize(crtc->width, crtc->height);
                             rects_.emplace_back(rect, std::min(dpiX, dpiY));
                             maxDpi_ = std::max(maxDpi_, rects_.back().second);
@@ -740,8 +745,10 @@ int XCBUI::scaledDPI(int dpi) {
         }
 
         if (is_xwayland && *parent_->config().xwaylandScaleMode) {
-            int scale = std::ceil((double)dpi / screenDpi_);
-            int scaledDpi = screenDpi_ * scale;
+            int scale = std::ceil(primaryDpi_ / 96.0);
+            int scaledDpi = 96 * scale;
+            FCITX_INFO() << "scaled DPI: " << scaledDpi << " " << primaryDpi_
+                         << " " << scale;
             if (scaledDpi >= 96) {
                 return scaledDpi;
             }
