@@ -3,8 +3,7 @@
 # This file is distributed under the same license as the fcitx5 package.
 #
 # Translators:
-# Xuetian Weng <wengxt@gmail.com>, 2017
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2020
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026
 #
 msgid ""
 msgstr ""
@@ -12,13 +11,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2026-02-22 20:24+0000\n"
 "PO-Revision-Date: 2017-11-23 04:14+0000\n"
-"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2020\n"
-"Language-Team: Catalan (https://app.transifex.com/fcitx/teams/12005/ca/)\n"
-"Language: ca\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026\n"
+"Language-Team: Georgian (https://app.transifex.com/fcitx/teams/12005/ka/)\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: data/fcitx5-diagnose.sh:900
 msgid "${1} Environment Variables:"
@@ -50,7 +49,7 @@ msgstr ""
 
 #: src/lib/fcitx/instance.cpp:436
 msgid "(Not available)"
-msgstr "(no disponible)"
+msgstr "(ხელმისაწვდომი არაა)"
 
 #: src/modules/unicode/unicode.cpp:493
 msgid "(Type to search unicode by code or description)"
@@ -75,7 +74,7 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:758
 msgid "/XIM"
-msgstr ""
+msgstr "/XIM"
 
 #: src/modules/clipboard/clipboard.h:81
 msgid "0 means never clear password."
@@ -83,11 +82,11 @@ msgstr ""
 
 #: src/modules/unicode/charselectdata.cpp:222
 msgid "<Low Surrogate>"
-msgstr "<Succedani baix>"
+msgstr "<დაბალ რეგისტრში გადაყვანა>"
 
 #: src/modules/unicode/charselectdata.cpp:218
 msgid "<Non Private Use High Surrogate>"
-msgstr "<Succedani alt d'ús no privat>"
+msgstr "<მაღალ რეგისტრში გადაყვანა>"
 
 #: src/modules/clipboard/clipboard.cpp:144
 msgid "<Password>"
@@ -103,15 +102,15 @@ msgstr ""
 
 #: src/modules/unicode/charselectdata.cpp:220
 msgid "<Private Use High Surrogate>"
-msgstr " <Succedani alt d'ús privat>"
+msgstr "<მომხმარებლის ტექსტის მაღალ რეგისტრში გადაყვანა>"
 
 #: src/modules/unicode/charselectdata.cpp:224
 msgid "<Private Use>"
-msgstr "<Ús privat>"
+msgstr "<მომხმარებლის ტექსტი>"
 
 #: src/modules/unicode/charselectdata.cpp:262
 msgid "<not assigned>"
-msgstr "<no assignat>"
+msgstr "<მინიჭებული არაა>"
 
 #: src/ui/virtualkeyboard/virtualkeyboard.conf.in.in:3
 msgid "A virtual keyboard backend based on DBus"
@@ -119,24 +118,24 @@ msgstr ""
 
 #: src/ui/classic/theme.h:226
 msgid "Accent Colors"
-msgstr ""
+msgstr "აქცენტის ფერები"
 
 #: src/lib/fcitx/globalconfig.cpp:62
 msgid "Activate Input Method"
-msgstr "Activa el mètode d'entrada"
+msgstr ""
 
 #: src/lib/fcitx/globalconfig.cpp:180
 msgid "Active By Default"
-msgstr "Activa per defecte"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:153
 msgctxt "Key name"
 msgid "Add Favorite"
-msgstr "Afegeix un preferit"
+msgstr "რჩეულის დამატება"
 
 #: src/modules/unicode/unicode.conf.in.in:3
 msgid "Add Unicode Typing Support"
-msgstr "Afegeix la compatibilitat amb l'escriptura unicode"
+msgstr ""
 
 #: data/fcitx5-diagnose.sh:1465
 msgid "Addon Config Dir:"
@@ -153,11 +152,11 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:155
 msgctxt "Key name"
 msgid "Adjust Brightness"
-msgstr "Ajusta la brillantor"
+msgstr "სიკაშკაშის მორგება"
 
 #: src/lib/fcitx/globalconfig.cpp:36
 msgid "All"
-msgstr ""
+msgstr "ყველა"
 
 #: data/fcitx5-diagnose.sh:1267
 msgid "All found Gtk ${1} immodule files exist."
@@ -199,12 +198,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:160
 msgctxt "Key name"
 msgid "Application Left"
-msgstr ""
+msgstr "აპლიკაცა მარცხნივ"
 
 #: src/lib/fcitx-utils/key.cpp:161
 msgctxt "Key name"
 msgid "Application Right"
-msgstr ""
+msgstr "აპლიკაცია მარჯვნივ"
 
 #: src/im/keyboard/keyboard.h:101
 msgid "Applications disabled for long press"
@@ -213,57 +212,57 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:220
 msgctxt "Key name"
 msgid "Audio Cycle Track"
-msgstr ""
+msgstr "აუდიო ტრეკების წრეზე დაკვრა"
 
 #: src/lib/fcitx-utils/key.cpp:218
 msgctxt "Key name"
 msgid "Audio Random Play"
-msgstr ""
+msgstr "აუდიოს შემთხვევით დაკვრა"
 
 #: src/lib/fcitx-utils/key.cpp:217
 msgctxt "Key name"
 msgid "Audio Repeat"
-msgstr "Repetició de l'àudio"
+msgstr "აუდიოს გამეორება"
 
 #: src/ui/classic/theme.h:215
 msgid "Author"
-msgstr ""
+msgstr "ავტორი"
 
 #: src/modules/xcb/xcbmodule.h:37
 msgid "Auto"
-msgstr ""
+msgstr "ავტო"
 
 #: src/lib/fcitx-utils/key.cpp:207
 msgctxt "Key name"
 msgid "Away"
-msgstr ""
+msgstr "გასული"
 
 #: src/lib/fcitx-utils/key.cpp:102
 msgctxt "Key name"
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 #: src/lib/fcitx-utils/key.cpp:159
 msgctxt "Key name"
 msgid "Back Forward"
-msgstr ""
+msgstr "წინ უკან"
 
 #: src/modules/spell/spell.h:39
 msgid "Backends"
-msgstr ""
+msgstr "უკანაბოლოები"
 
 #: src/ui/classic/theme.h:180 src/ui/classic/theme.h:200
 msgid "Background"
-msgstr ""
+msgstr "ფონი"
 
 #: src/ui/classic/theme.h:91
 msgid "Background Image"
-msgstr ""
+msgstr "ფონის სურათი"
 
 #: src/lib/fcitx-utils/key.cpp:51
 msgctxt "Key name"
 msgid "Backspace"
-msgstr "Retrocés"
+msgstr "Backspace"
 
 #: data/fcitx5-diagnose.sh:827
 msgid "Bash Version:"
@@ -272,7 +271,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:213
 msgctxt "Key name"
 msgid "Battery"
-msgstr "Bateria"
+msgstr "ელემენტი"
 
 #: data/fcitx5-diagnose.sh:706
 msgid "Beginner's Guide"
@@ -280,17 +279,17 @@ msgstr ""
 
 #: src/lib/fcitx/globalconfig.cpp:251
 msgid "Behavior"
-msgstr "Comportament"
+msgstr "ქცევა"
 
 #: src/lib/fcitx-utils/key.cpp:231
 msgctxt "Key name"
 msgid "Blue"
-msgstr "Blau"
+msgstr "ლურჯი"
 
 #: src/lib/fcitx-utils/key.cpp:214
 msgctxt "Key name"
 msgid "Bluetooth"
-msgstr "Bluetooth"
+msgstr "ბლუთუზი"
 
 #: src/ui/classic/theme.h:170
 msgid "Blur Margin"
@@ -303,36 +302,36 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:162
 msgctxt "Key name"
 msgid "Book"
-msgstr "Llibre"
+msgstr "წიგნი"
 
 #: src/ui/classic/theme.h:103
 msgid "Border Color"
-msgstr ""
+msgstr "საზღვრის ფერი"
 
 #: src/ui/classic/theme.h:111
 msgid "Border width"
-msgstr ""
+msgstr "საზღვრის სიგანე"
 
 #: src/ui/classic/theme.h:56
 msgid "Bottom"
-msgstr ""
+msgstr "ქვემო"
 
 #: src/ui/classic/theme.h:44
 msgid "Bottom Center"
-msgstr ""
+msgstr "ქვემოთ ცენტრში"
 
 #: src/ui/classic/theme.h:44
 msgid "Bottom Left"
-msgstr ""
+msgstr "ქვედა მარცხენა"
 
 #: src/ui/classic/theme.h:45
 msgid "Bottom Right"
-msgstr ""
+msgstr "ქვედა მარჯვენა"
 
 #: src/lib/fcitx-utils/key.cpp:173
 msgctxt "Key name"
 msgid "Browser"
-msgstr "Navegador"
+msgstr "ბრაუზერი"
 
 #: src/lib/fcitx-utils/key.cpp:163
 msgctxt "Key name"
@@ -347,12 +346,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:164
 msgctxt "Key name"
 msgid "Calculator"
-msgstr "Calculadora"
+msgstr "კალკულატორი"
 
 #: src/lib/fcitx-utils/key.cpp:273
 msgctxt "Key name"
 msgid "Cancel"
-msgstr "Cancel·la"
+msgstr "გაუქმება"
 
 #: src/ui/classic/theme.h:163
 msgid "Candidate Comment Text Color"
@@ -372,7 +371,7 @@ msgstr ""
 
 #: src/im/keyboard/longpress.h:23
 msgid "Candidates"
-msgstr ""
+msgstr "კანდიდატები"
 
 #: data/fcitx5-diagnose.sh:975
 msgid "Cannot connect to ${1} correctly."
@@ -447,19 +446,19 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:62
 msgctxt "Key name"
 msgid "CapsLock"
-msgstr "Bloq Maj"
+msgstr "CapsLock"
 
 #: src/ui/classic/theme.h:43 src/ui/classic/theme.h:55
 msgid "Center"
-msgstr ""
+msgstr "ცენტრი"
 
 #: src/ui/classic/theme.h:42
 msgid "Center Left"
-msgstr ""
+msgstr "მარცხენა ცენტრი"
 
 #: src/ui/classic/theme.h:43
 msgid "Center Right"
-msgstr ""
+msgstr "მარჯვენა ცენტრი"
 
 #: data/fcitx5-configtool.desktop.in.in:4
 msgid "Change Fcitx 5 Configuration"
@@ -467,11 +466,11 @@ msgstr ""
 
 #: src/ui/classic/theme.h:205
 msgid "Check box"
-msgstr ""
+msgstr "ჩასართავი"
 
 #: src/im/keyboard/keyboard.h:69 src/modules/quickphrase/quickphrase.h:43
 msgid "Choose key modifier"
-msgstr "Escolliu el modificador de tecla"
+msgstr ""
 
 #: src/ui/classic/classicui.conf.in.in:2
 msgid "Classic User Interface"
@@ -480,7 +479,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:165
 msgctxt "Key name"
 msgid "Clear"
-msgstr "Neteja"
+msgstr "გასუფთავება"
 
 #: src/ui/classic/theme.h:137
 msgid "Click Margin"
@@ -488,7 +487,7 @@ msgstr ""
 
 #: src/modules/clipboard/clipboard.conf.in.in:2
 msgid "Clipboard"
-msgstr "Porta-retalls"
+msgstr "გაცვლის ბუფერი"
 
 #: src/modules/clipboard/clipboard.cpp:397
 msgid "Clipboard (Press BackSpace/Delete to clear history):"
@@ -497,25 +496,25 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:166
 msgctxt "Key name"
 msgid "Close"
-msgstr "Tanca"
+msgstr "დახურვა"
 
 #: src/lib/fcitx-utils/key.cpp:259
 msgctxt "Key name"
 msgid "Code input"
-msgstr ""
+msgstr "კოდის შეყვანა"
 
 #: src/ui/classic/theme.h:95
 msgid "Color"
-msgstr ""
+msgstr "ფერი"
 
 #: src/lib/fcitx-utils/key.cpp:157
 msgctxt "Key name"
 msgid "Community"
-msgstr "Comunitat"
+msgstr "საზოგადოება"
 
 #: src/im/keyboard/keyboard.cpp:722
 msgid "Completion"
-msgstr ""
+msgstr "დასრულება"
 
 #: src/im/keyboard/keyboard.cpp:713
 msgid "Completion is disabled."
@@ -531,7 +530,7 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:1692
 msgid "Configuration:"
-msgstr ""
+msgstr "მორგება:"
 
 #: src/im/keyboard/keyboard.h:46 src/modules/quickphrase/quickphrase.h:31
 msgid "Control"
@@ -545,7 +544,7 @@ msgstr "Control"
 #: src/lib/fcitx-utils/key.cpp:167
 msgctxt "Key name"
 msgid "Copy"
-msgstr "Copia"
+msgstr "კოპირება"
 
 #: data/fcitx5-diagnose.sh:888
 msgid "Current ${1} settings directory is ${2} (${3})."
@@ -565,7 +564,7 @@ msgstr ""
 
 #: src/modules/spell/spell.h:23
 msgid "Custom"
-msgstr "Personalitzat"
+msgstr "ხელით"
 
 #: src/lib/fcitx/globalconfig.cpp:224
 msgid "Custom XKB Option"
@@ -574,7 +573,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:168
 msgctxt "Key name"
 msgid "Cut"
-msgstr "Retalla"
+msgstr "ამოჭრა"
 
 #: src/modules/dbus/dbus.conf.in.in:2
 msgid "DBus"
@@ -582,7 +581,7 @@ msgstr "DBus"
 
 #: src/frontend/dbusfrontend/dbusfrontend.conf.in.in:2
 msgid "DBus Frontend"
-msgstr "Frontal DBus"
+msgstr ""
 
 #: src/ui/virtualkeyboard/virtualkeyboard.conf.in.in:2
 msgid "DBus Virtual Keyboard"
@@ -607,7 +606,7 @@ msgstr ""
 
 #: src/lib/fcitx/globalconfig.cpp:71
 msgid "Deactivate Input Method"
-msgstr "Desactiva el mètode d'entrada"
+msgstr ""
 
 #: data/fcitx5-diagnose.sh:1007
 msgid "Debug information from dbus:"
@@ -616,7 +615,7 @@ msgstr ""
 #: src/lib/fcitx/inputmethodmanager.cpp:153 src/lib/fcitx/instance.cpp:383
 #: src/ui/classic/themes/default/theme.conf.in:2
 msgid "Default"
-msgstr "Per defecte"
+msgstr "ნაგულისხმევი"
 
 #: src/ui/classic/themes/default-dark/theme-dark.conf.in:2
 msgid "Default Dark"
@@ -624,16 +623,16 @@ msgstr ""
 
 #: src/lib/fcitx/globalconfig.cpp:207
 msgid "Default page size"
-msgstr "Mida de pàgina predeterminada"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:239
 msgctxt "Key name"
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #: src/ui/classic/theme.h:217
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #: data/fcitx5-diagnose.sh:817
 msgid "Desktop Environment:"
@@ -672,12 +671,12 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:868
 msgid "Directories:"
-msgstr ""
+msgstr "უჯრები:"
 
 #: src/lib/fcitx-utils/key.cpp:169
 msgctxt "Key name"
 msgid "Display"
-msgstr ""
+msgstr "ჩვენება"
 
 #: src/modules/clipboard/clipboard.h:71
 msgid "Display passwords as plain text"
@@ -685,7 +684,7 @@ msgstr ""
 
 #: src/modules/notifications/notifications.cpp:230
 msgid "Do not show again"
-msgstr "No ho mostris un altre cop"
+msgstr "აღარ მაჩვენო"
 
 #: src/modules/clipboard/clipboard.h:63
 msgid "Do not show password from password managers"
@@ -694,39 +693,39 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:171
 msgctxt "Key name"
 msgid "Documents"
-msgstr "Documents"
+msgstr "დოკუმენტები"
 
 #: src/lib/fcitx-utils/key.cpp:59
 msgctxt "Key name"
 msgid "Down"
-msgstr "Avall"
+msgstr "გამორთულია"
 
 #: src/modules/quickphrase/quickphrase.h:49
 msgid "Editor"
-msgstr ""
+msgstr "რედაქტორი"
 
 #: src/lib/fcitx-utils/key.cpp:257
 msgctxt "Key name"
 msgid "Eisu Shift"
-msgstr ""
+msgstr "Eisu Shift"
 
 #: src/lib/fcitx-utils/key.cpp:258
 msgctxt "Key name"
 msgid "Eisu toggle"
-msgstr ""
+msgstr "Eisu toggle"
 
 #: src/lib/fcitx-utils/key.cpp:146
 msgctxt "Key name"
 msgid "Eject"
-msgstr "Expulsa"
+msgstr "გამოღება"
 
 #: src/modules/emoji/emoji.conf.in.in:2
 msgid "Emoji"
-msgstr ""
+msgstr "ემოჯი"
 
 #: src/im/keyboard/longpress.h:21
 msgid "Enable"
-msgstr ""
+msgstr "ჩართვა"
 
 #: src/ui/classic/theme.h:167
 msgid "Enable Blur on KWin"
@@ -754,16 +753,16 @@ msgstr ""
 
 #: src/modules/spell/spell.h:24
 msgid "Enchant"
-msgstr "Enchant"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:55
 msgctxt "Key name"
 msgid "End"
-msgstr "Fi"
+msgstr "დასასრული"
 
 #: src/im/keyboard/longpress.h:30
 msgid "Entries"
-msgstr ""
+msgstr "ჩანაწერები"
 
 #: src/lib/fcitx/globalconfig.cpp:102
 msgid "Enumerate Input Method Backward"
@@ -805,7 +804,7 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:832
 msgid "Environment:"
-msgstr ""
+msgstr "გარემო:"
 
 #: data/fcitx5-diagnose.sh:860
 msgid "Error occurs when running ${1}. Please check your locale settings."
@@ -814,17 +813,17 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:240
 msgctxt "Key name"
 msgid "Escape"
-msgstr "Esc"
+msgstr "Escape"
 
 #: src/lib/fcitx-utils/key.cpp:274
 msgctxt "Key name"
 msgid "Execute"
-msgstr "Executa"
+msgstr "შესრულება"
 
 #: src/ui/classic/xcbtraywindow.cpp:57
 #: src/modules/notificationitem/dbusmenu.cpp:268
 msgid "Exit"
-msgstr "Surt"
+msgstr "გასვლა"
 
 #: data/fcitx5-diagnose.sh:1406
 msgid "Failed to find ${1} in immodule cache at ${2}"
@@ -857,7 +856,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:116
 msgctxt "Key name"
 msgid "Favorites"
-msgstr "Preferits"
+msgstr "რჩეულები"
 
 #: src/modules/wayland/waylandmodule.cpp:655
 msgid "Fcitx"
@@ -866,11 +865,11 @@ msgstr ""
 #: data/org.fcitx.Fcitx5.desktop.in.in:2
 #: data/org.fcitx.Fcitx5.metainfo.xml.in:6
 msgid "Fcitx 5"
-msgstr "Fcitx 5"
+msgstr ""
 
 #: data/fcitx5-configtool.desktop.in.in:2
 msgid "Fcitx 5 Configuration"
-msgstr "Configuració de fcitx 5"
+msgstr "Fcitx 5-ის მორგება"
 
 #: data/fcitx5-wayland-launcher.desktop.in.in:2
 msgid "Fcitx 5 Wayland Launcher (Experimental)"
@@ -913,12 +912,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:156
 msgctxt "Key name"
 msgid "Finance"
-msgstr "Finances"
+msgstr "ფინანსები"
 
 #: src/lib/fcitx-utils/key.cpp:234
 msgctxt "Key name"
 msgid "Find"
-msgstr "Troba"
+msgstr "ძებნა"
 
 #: src/ui/classic/theme.h:55
 msgid "First Candidate"
@@ -942,7 +941,7 @@ msgstr ""
 
 #: src/ui/classic/classicui.h:126
 msgid "Font"
-msgstr ""
+msgstr "ფონტი"
 
 #: src/ui/classic/classicui.h:156
 msgid ""
@@ -969,7 +968,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:103
 msgctxt "Key name"
 msgid "Forward"
-msgstr ""
+msgstr "წინ"
 
 #: src/frontend/waylandim/waylandim.h:39
 msgid "Forward key event instead of committing text if it is not handled"
@@ -1046,27 +1045,27 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:174
 msgctxt "Key name"
 msgid "Game"
-msgstr "Joc"
+msgstr "თამაში"
 
 #: src/lib/fcitx-utils/key.cpp:175
 msgctxt "Key name"
 msgid "Go"
-msgstr ""
+msgstr "წინ"
 
 #: src/lib/fcitx-utils/key.cpp:229
 msgctxt "Key name"
 msgid "Green"
-msgstr "Verd"
+msgstr "მწვანე"
 
 #: src/ui/classic/xcbtraywindow.cpp:53
 #: src/modules/notificationitem/dbusmenu.cpp:244
 msgid "Group"
-msgstr "Grup"
+msgstr "ჯგუფი"
 
 #: src/lib/fcitx/instance.cpp:440
 #, c++-format
 msgid "Group {0}: {1}"
-msgstr "Grup {0}: {1}"
+msgstr ""
 
 #: src/lib/fcitx/instance.cpp:385
 #, c++-format
@@ -1097,77 +1096,77 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:262
 msgctxt "Key name"
 msgid "Hangul"
-msgstr ""
+msgstr "ჰანგული"
 
 #: src/lib/fcitx-utils/key.cpp:269
 msgctxt "Key name"
 msgid "Hangul Banja"
-msgstr ""
+msgstr "ჰანგული ბანჯა"
 
 #: src/lib/fcitx-utils/key.cpp:264
 msgctxt "Key name"
 msgid "Hangul End"
-msgstr ""
+msgstr "ჰანგულის დასასრული"
 
 #: src/lib/fcitx-utils/key.cpp:265
 msgctxt "Key name"
 msgid "Hangul Hanja"
-msgstr ""
+msgstr "ჰანგული ჰანჯა"
 
 #: src/lib/fcitx-utils/key.cpp:266
 msgctxt "Key name"
 msgid "Hangul Jamo"
-msgstr ""
+msgstr "ჰანგული ჯამო"
 
 #: src/lib/fcitx-utils/key.cpp:268
 msgctxt "Key name"
 msgid "Hangul Jeonja"
-msgstr ""
+msgstr "ჰანგულ ჯეონჯა"
 
 #: src/lib/fcitx-utils/key.cpp:271
 msgctxt "Key name"
 msgid "Hangul PostHanja"
-msgstr ""
+msgstr "ჰანგული პოსტჰანჯა"
 
 #: src/lib/fcitx-utils/key.cpp:270
 msgctxt "Key name"
 msgid "Hangul PreHanja"
-msgstr ""
+msgstr "ჰანგული პრეჰანჯა"
 
 #: src/lib/fcitx-utils/key.cpp:267
 msgctxt "Key name"
 msgid "Hangul Romaja"
-msgstr ""
+msgstr "ჰანგული რომაჯა"
 
 #: src/lib/fcitx-utils/key.cpp:272
 msgctxt "Key name"
 msgid "Hangul Special"
-msgstr ""
+msgstr "ჰანგული სპეციალური"
 
 #: src/lib/fcitx-utils/key.cpp:263
 msgctxt "Key name"
 msgid "Hangul Start"
-msgstr ""
+msgstr "ჰანგულის დასაწყისი"
 
 #: src/lib/fcitx-utils/key.cpp:251
 msgctxt "Key name"
 msgid "Hankaku"
-msgstr ""
+msgstr "ჰანკაკუ"
 
 #: src/lib/fcitx-utils/key.cpp:101
 msgctxt "Key name"
 msgid "Help"
-msgstr "Ajuda"
+msgstr "დახმარება"
 
 #: src/lib/fcitx-utils/key.cpp:245
 msgctxt "Key name"
 msgid "Henkan"
-msgstr ""
+msgstr "ჰენკანი"
 
 #: src/lib/fcitx-utils/key.cpp:222
 msgctxt "Key name"
 msgid "Hibernate"
-msgstr ""
+msgstr "პროგრამული ძილი"
 
 #: src/modules/notifications/notifications.h:35
 msgid "Hidden Notifications"
@@ -1208,45 +1207,45 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:247
 msgctxt "Key name"
 msgid "Hiragana"
-msgstr ""
+msgstr "ჰირაგანა"
 
 #: src/lib/fcitx-utils/key.cpp:249
 msgctxt "Key name"
 msgid "Hiragana Katakana"
-msgstr ""
+msgstr "ჰირაგანა კატაკანა"
 
 #: src/lib/fcitx-utils/key.cpp:152
 msgctxt "Key name"
 msgid "History"
-msgstr "Historial"
+msgstr "ისტორია"
 
 #: src/lib/fcitx-utils/key.cpp:54
 msgctxt "Key name"
 msgid "Home"
-msgstr ""
+msgstr "საწყისი"
 
 #: src/lib/fcitx-utils/key.cpp:184
 msgctxt "Key name"
 msgid "Home Office"
-msgstr ""
+msgstr "სახლის ოფისი"
 
 #: src/lib/fcitx-utils/key.cpp:115
 msgctxt "Key name"
 msgid "Home Page"
-msgstr ""
+msgstr "საწყისი გვერდი"
 
 #: data/fcitx5-diagnose.sh:870
 msgid "Home:"
-msgstr ""
+msgstr "საწყისი:"
 
 #: src/lib/fcitx-utils/key.cpp:154
 msgctxt "Key name"
 msgid "Hot Links"
-msgstr ""
+msgstr "ცხელი ბმულები"
 
 #: src/lib/fcitx/globalconfig.cpp:249
 msgid "Hotkey"
-msgstr "Drecera de teclat"
+msgstr "მალსახმობი ღილაკი"
 
 #: src/modules/imselector/imselector.h:37
 msgid "Hotkey for switching to the N-th input method"
@@ -1260,11 +1259,11 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:589
 msgctxt "Key name"
 msgid "Hyper"
-msgstr ""
+msgstr "Hyper"
 
 #: src/frontend/ibusfrontend/ibusfrontend.conf.in.in:2
 msgid "IBus Frontend"
-msgstr "Frontal DBus"
+msgstr ""
 
 #: src/frontend/waylandim/waylandim.h:48
 msgid ""
@@ -1295,7 +1294,7 @@ msgstr ""
 
 #: src/ui/classic/theme.h:135
 msgid "Image"
-msgstr ""
+msgstr "გამოსახულება"
 
 #: src/im/keyboard/keyboard.cpp:721 src/lib/fcitx/instance.cpp:474
 #: src/lib/fcitx/instance.cpp:703 src/lib/fcitx/instance.cpp:877
@@ -1306,11 +1305,11 @@ msgstr ""
 #: data/fcitx5-wayland-launcher.desktop.in.in:3
 #: data/org.fcitx.Fcitx5.metainfo.xml.in:7
 msgid "Input Method"
-msgstr "Mètode d'entrada"
+msgstr "შეტანის მეთოდი"
 
 #: data/fcitx5-configtool.desktop.in.in:3
 msgid "Input Method Configuration"
-msgstr ""
+msgstr "შეტანის მეთოდის მორგება"
 
 #: data/fcitx5-diagnose.sh:717
 msgid "Input Method Related Environment Variables: "
@@ -1319,7 +1318,7 @@ msgstr ""
 #: src/ui/classic/xcbtraywindow.cpp:55
 #: src/modules/notificationitem/dbusmenu.cpp:254
 msgid "Input Method Settings"
-msgstr ""
+msgstr "შეყვანის მეთოდის მორგება"
 
 #: data/fcitx5-diagnose.sh:1604
 msgid "Input Methods:"
@@ -1362,7 +1361,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:238
 msgctxt "Key name"
 msgid "Insert"
-msgstr ""
+msgstr "ჩასმა"
 
 #: src/lib/fcitx/globalconfig.cpp:241
 msgid "Interval of saving user data in minutes"
@@ -1389,7 +1388,7 @@ msgstr ""
 
 #: src/ui/kimpanel/kimpanel.conf.in.in:2
 msgid "KDE Input Method Panel"
-msgstr "Tauler del mètode d'entrada de KDE"
+msgstr ""
 
 #: src/ui/classic/classicui.cpp:300
 msgid "KDE Plasma (Experimental)"
@@ -1398,22 +1397,22 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:255
 msgctxt "Key name"
 msgid "Kana Lock"
-msgstr ""
+msgstr "კანა ჩაკეტვა"
 
 #: src/lib/fcitx-utils/key.cpp:256
 msgctxt "Key name"
 msgid "Kana Shift"
-msgstr ""
+msgstr "Kana Shift"
 
 #: src/lib/fcitx-utils/key.cpp:243
 msgctxt "Key name"
 msgid "Kanji"
-msgstr ""
+msgstr "კანჯი"
 
 #: src/lib/fcitx-utils/key.cpp:248
 msgctxt "Key name"
 msgid "Katakana"
-msgstr ""
+msgstr "კატაკანა"
 
 #: src/frontend/waylandim/waylandim.h:44
 msgid "Keep virtual keyboard object for V2 Protocol (Need restart)"
@@ -1421,45 +1420,45 @@ msgstr ""
 
 #: src/im/keyboard/longpress.h:20
 msgid "Key"
-msgstr ""
+msgstr "გასაღები"
 
 #: src/im/keyboard/keyboard.cpp:344 src/im/keyboard/keyboard.conf.in.in:2
 msgid "Keyboard"
-msgstr "Teclat"
+msgstr "კლავიატურა"
 
 #: src/im/keyboard/keyboard.cpp:262
 #, c++-format
 msgid "Keyboard - {0}"
-msgstr "Teclat - {0}"
+msgstr ""
 
 #: src/im/keyboard/keyboard.cpp:280
 #, c++-format
 msgid "Keyboard - {0} - {1}"
-msgstr "Teclat - {0} - {1}"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:143
 msgctxt "Key name"
 msgid "Keyboard Brightness Down"
-msgstr ""
+msgstr "კლავიატურის სიკაშკაშის დაწევა"
 
 #: src/lib/fcitx-utils/key.cpp:141
 msgctxt "Key name"
 msgid "Keyboard Brightness Up"
-msgstr ""
+msgstr "კლავიატურის სიკაშკაშის აწევა"
 
 #: data/fcitx5-diagnose.sh:836
 msgid "Keyboard Layout:"
-msgstr ""
+msgstr "კლავიატურის განლაგება:"
 
 #: src/lib/fcitx-utils/key.cpp:140
 msgctxt "Key name"
 msgid "Keyboard Light On/Off"
-msgstr ""
+msgstr "კლავიატურის განათების ჩართ/გამორთ"
 
 #: src/lib/fcitx-utils/key.cpp:180
 msgctxt "Key name"
 msgid "Keyboard Menu"
-msgstr ""
+msgstr "კლავიატურის მენიუ"
 
 #: src/lib/fcitx-utils/key.cpp:83
 msgctxt "Key name"
@@ -1647,102 +1646,102 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:121
 msgctxt "Key name"
 msgid "Launch (0)"
-msgstr ""
+msgstr "(0)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:122
 msgctxt "Key name"
 msgid "Launch (1)"
-msgstr ""
+msgstr "(1)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:123
 msgctxt "Key name"
 msgid "Launch (2)"
-msgstr ""
+msgstr "(2)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:124
 msgctxt "Key name"
 msgid "Launch (3)"
-msgstr ""
+msgstr "(3)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:125
 msgctxt "Key name"
 msgid "Launch (4)"
-msgstr ""
+msgstr "(4)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:126
 msgctxt "Key name"
 msgid "Launch (5)"
-msgstr ""
+msgstr "(5)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:127
 msgctxt "Key name"
 msgid "Launch (6)"
-msgstr ""
+msgstr "(6)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:128
 msgctxt "Key name"
 msgid "Launch (7)"
-msgstr ""
+msgstr "(7)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:129
 msgctxt "Key name"
 msgid "Launch (8)"
-msgstr ""
+msgstr "(8)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:130
 msgctxt "Key name"
 msgid "Launch (9)"
-msgstr ""
+msgstr "(9)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:131
 msgctxt "Key name"
 msgid "Launch (A)"
-msgstr ""
+msgstr "(A)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:132
 msgctxt "Key name"
 msgid "Launch (B)"
-msgstr ""
+msgstr "(B)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:133
 msgctxt "Key name"
 msgid "Launch (C)"
-msgstr ""
+msgstr "(C)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:134
 msgctxt "Key name"
 msgid "Launch (D)"
-msgstr ""
+msgstr "(D)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:135
 msgctxt "Key name"
 msgid "Launch (E)"
-msgstr ""
+msgstr "(E)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:136
 msgctxt "Key name"
 msgid "Launch (F)"
-msgstr ""
+msgstr "(F)-ის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:120
 msgctxt "Key name"
 msgid "Launch Mail"
-msgstr ""
+msgstr "ელფოსტის გაშვება"
 
 #: src/lib/fcitx-utils/key.cpp:56
 msgctxt "Key name"
 msgid "Left"
-msgstr ""
+msgstr "მარცხენა"
 
 #: src/lib/fcitx-utils/key.cpp:39
 msgctxt "Key name"
 msgid "Left Alt"
-msgstr "Alt esquerre"
+msgstr "მარცხენა Alt"
 
 #: src/lib/fcitx-utils/key.cpp:43
 msgctxt "Key name"
 msgid "Left Control"
-msgstr "Control esquerre"
+msgstr "მარცხენა Ctrl"
 
 #: src/lib/fcitx-utils/key.cpp:47
 msgctxt "Key name"
@@ -1752,30 +1751,30 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:41
 msgctxt "Key name"
 msgid "Left Shift"
-msgstr "Majúscules esquerre"
+msgstr "მარცხენა Shift"
 
 #: src/lib/fcitx-utils/key.cpp:45
 msgctxt "Key name"
 msgid "Left Super"
-msgstr ""
+msgstr "მარცხენა Super"
 
 #: src/lib/fcitx-utils/key.cpp:150
 msgctxt "Key name"
 msgid "LightBulb"
-msgstr ""
+msgstr "ნათურა"
 
 #: data/fcitx5-diagnose.sh:851
 msgid "Locale:"
-msgstr ""
+msgstr "ენა:"
 
 #: data/fcitx5-diagnose.sh:1698
 msgid "Log:"
-msgstr ""
+msgstr "ჟურნალი:"
 
 #: src/lib/fcitx-utils/key.cpp:177
 msgctxt "Key name"
 msgid "Logoff"
-msgstr ""
+msgstr "გასვლა"
 
 #: src/im/keyboard/keyboard.h:104
 msgid "Long Press behavior"
@@ -1784,27 +1783,27 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:210
 msgctxt "Key name"
 msgid "Mail Forward"
-msgstr ""
+msgstr "ელფოსტის გადაგზავნა"
 
 #: src/ui/classic/theme.h:124
 msgid "Margin"
-msgstr ""
+msgstr "ზღვარი"
 
 #: src/ui/classic/theme.h:86
 msgid "Margin Bottom"
-msgstr ""
+msgstr "ქვედა საზღვარი"
 
 #: src/ui/classic/theme.h:80
 msgid "Margin Left"
-msgstr ""
+msgstr "საზღვარი მარცხნივ"
 
 #: src/ui/classic/theme.h:82
 msgid "Margin Right"
-msgstr ""
+msgstr "საზღვარი მარჯვნივ"
 
 #: src/ui/classic/theme.h:84
 msgid "Margin Top"
-msgstr ""
+msgstr "ზედა საზღვარი"
 
 #: src/ui/classic/theme.h:184 src/ui/classic/theme.h:208
 msgid "Margin around all content"
@@ -1817,70 +1816,70 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:178
 msgctxt "Key name"
 msgid "Market"
-msgstr "Mercat"
+msgstr "მაღაზია"
 
 #: src/lib/fcitx-utils/key.cpp:254
 msgctxt "Key name"
 msgid "Massyo"
-msgstr ""
+msgstr "მასიო"
 
 #: src/lib/fcitx-utils/key.cpp:216
 msgctxt "Key name"
 msgid "Media Fast Forward"
-msgstr ""
+msgstr "მედიის სწრაფად გადახვევა"
 
 #: src/lib/fcitx-utils/key.cpp:112
 msgctxt "Key name"
 msgid "Media Next"
-msgstr ""
+msgstr "შემდეგი მედია"
 
 #: src/lib/fcitx-utils/key.cpp:114
 msgctxt "Key name"
 msgid "Media Pause"
-msgstr ""
+msgstr "მედიის გაჩერება"
 
 #: src/lib/fcitx-utils/key.cpp:109
 msgctxt "Key name"
 msgid "Media Play"
-msgstr ""
+msgstr "მედიის დაკვრა"
 
 #: src/lib/fcitx-utils/key.cpp:111
 msgctxt "Key name"
 msgid "Media Previous"
-msgstr ""
+msgstr "წინა მედია"
 
 #: src/lib/fcitx-utils/key.cpp:113
 msgctxt "Key name"
 msgid "Media Record"
-msgstr ""
+msgstr "მედიის ჩანაწერი"
 
 #: src/lib/fcitx-utils/key.cpp:158
 msgctxt "Key name"
 msgid "Media Rewind"
-msgstr ""
+msgstr "მედიის გადახვევა"
 
 #: src/lib/fcitx-utils/key.cpp:110
 msgctxt "Key name"
 msgid "Media Stop"
-msgstr ""
+msgstr "მედიის გაჩერება"
 
 #: src/lib/fcitx-utils/key.cpp:179
 msgctxt "Key name"
 msgid "Meeting"
-msgstr ""
+msgstr "შეხვედრა"
 
 #: src/ui/classic/theme.h:224
 msgid "Menu"
-msgstr ""
+msgstr "მენიუ"
 
 #: src/lib/fcitx-utils/key.cpp:100
 msgctxt "Key name"
 msgid "Menu"
-msgstr "Menú"
+msgstr "მენიუ"
 
 #: src/ui/classic/theme.h:74
 msgid "Menu Background"
-msgstr ""
+msgstr "მენიუს ფონი"
 
 #: src/ui/classic/theme.h:74
 msgid "Menu Border"
@@ -1888,12 +1887,12 @@ msgstr ""
 
 #: src/ui/classic/classicui.h:128
 msgid "Menu Font"
-msgstr ""
+msgstr "მენიუს ფონტი"
 
 #: src/lib/fcitx-utils/key.cpp:181
 msgctxt "Key name"
 msgid "Menu PB"
-msgstr ""
+msgstr "PB-ის მენიუ"
 
 #: src/ui/classic/theme.h:75
 msgid "Menu Selected Item Background"
@@ -1905,73 +1904,73 @@ msgstr ""
 
 #: src/ui/classic/theme.h:76
 msgid "Menu Separator"
-msgstr ""
+msgstr "მენიუს გამყოფი"
 
 #: src/lib/fcitx-utils/key.cpp:208
 msgctxt "Key name"
 msgid "Messenger"
-msgstr ""
+msgstr "მესინჯერი"
 
 #: src/ui/classic/theme.h:221
 msgid "Metadata"
-msgstr ""
+msgstr "მეტამონაცემები"
 
 #: src/lib/fcitx-utils/key.cpp:227
 msgctxt "Key name"
 msgid "Microphone Mute"
-msgstr "Silencia el micròfon"
+msgstr "მიკროფონის დადუმება"
 
 #: src/lib/fcitx-utils/key.cpp:139
 msgctxt "Key name"
 msgid "Monitor Brightness Down"
-msgstr ""
+msgstr "ეკრანის სიკაშკაშის დაწევა"
 
 #: src/lib/fcitx-utils/key.cpp:137
 msgctxt "Key name"
 msgid "Monitor Brightness Up"
-msgstr ""
+msgstr "ეკრანის სიკაშკაშის აწევა"
 
 #: src/lib/fcitx-utils/key.cpp:244
 msgctxt "Key name"
 msgid "Muhenkan"
-msgstr ""
+msgstr "მუჰენკანი"
 
 #: src/lib/fcitx-utils/key.cpp:260
 msgctxt "Key name"
 msgid "Multiple Candidate"
-msgstr "Diversos candidats"
+msgstr "მრავალი კანდიდატი"
 
 #: src/lib/fcitx-utils/key.cpp:212
 msgctxt "Key name"
 msgid "Music"
-msgstr "Música"
+msgstr "მუსიკა"
 
 #: src/lib/fcitx-utils/key.cpp:182
 msgctxt "Key name"
 msgid "My Sites"
-msgstr "Els meus llocs"
+msgstr "ჩემი საიტები"
 
 #: src/ui/classic/theme.h:213
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
 #: src/lib/fcitx-utils/key.cpp:232
 msgctxt "Key name"
 msgid "New"
-msgstr ""
+msgstr "ახალი"
 
 #: src/lib/fcitx-utils/key.cpp:183
 msgctxt "Key name"
 msgid "News"
-msgstr ""
+msgstr "ახალი ამბები"
 
 #: src/im/keyboard/keyboard.h:61
 msgid "Next Candidate"
-msgstr "Següent candidat"
+msgstr ""
 
 #: src/ui/classic/theme.h:188
 msgid "Next Page Button"
-msgstr ""
+msgstr "შემდეგი გვერდის ღილაკი"
 
 #: src/lib/fcitx/globalconfig.cpp:37 src/modules/xcb/xcbmodule.h:38
 msgid "No"
@@ -1983,7 +1982,7 @@ msgstr ""
 
 #: src/im/keyboard/keyboard.h:45 src/modules/quickphrase/quickphrase.h:30
 msgid "None"
-msgstr "Cap"
+msgstr "არცერთი"
 
 #: src/ui/classic/theme.h:141 src/ui/classic/theme.h:193
 msgid "Normal text color"
@@ -1998,7 +1997,7 @@ msgstr ""
 
 #: src/ui/kimpanel/kimpanel.cpp:406
 msgid "Not available"
-msgstr "No disponible"
+msgstr "ხელმისაწვდომი არაა"
 
 #: data/fcitx5-diagnose.sh:733
 msgid "Note for GNOME Later than 3.6"
@@ -2006,12 +2005,12 @@ msgstr ""
 
 #: src/modules/notifications/notifications.conf.in.in:2
 msgid "Notification"
-msgstr "Notificació"
+msgstr "შეტყობინება"
 
 #: src/lib/fcitx-utils/key.cpp:63
 msgctxt "Key name"
 msgid "NumLock"
-msgstr "Bloq Núm"
+msgstr "NumLock"
 
 #: src/modules/clipboard/clipboard.h:56
 msgid "Number of entries"
@@ -2026,17 +2025,17 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:233
 msgctxt "Key name"
 msgid "Open"
-msgstr "Obre"
+msgstr "გახსნა"
 
 #: src/lib/fcitx-utils/key.cpp:119
 msgctxt "Key name"
 msgid "Open URL"
-msgstr "Obre l'URL"
+msgstr "URL-ის გახსნა"
 
 #: src/lib/fcitx-utils/key.cpp:185
 msgctxt "Key name"
 msgid "Option"
-msgstr "Opció"
+msgstr "პარამეტრი"
 
 #: src/ui/classic/theme.h:126
 msgid "Overlay Clip Margin"
@@ -2073,12 +2072,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:61
 msgctxt "Key name"
 msgid "Page Down"
-msgstr ""
+msgstr "ღილაკი Page Down"
 
 #: src/lib/fcitx-utils/key.cpp:60
 msgctxt "Key name"
 msgid "Page Up"
-msgstr ""
+msgstr "ღილაკი Page Up"
 
 #: src/ui/classic/theme.h:177
 msgid "Page button vertical alignment"
@@ -2086,12 +2085,12 @@ msgstr ""
 
 #: src/im/keyboard/keyboard.h:50
 msgid "Page size"
-msgstr "Mida de pàgina"
+msgstr "გვერდის ზომა"
 
 #: src/lib/fcitx-utils/key.cpp:186
 msgctxt "Key name"
 msgid "Paste"
-msgstr "Enganxa"
+msgstr "ჩასმა"
 
 #: src/modules/clipboard/clipboard.h:54
 msgid "Paste Primary"
@@ -2100,17 +2099,17 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:53
 msgctxt "Key name"
 msgid "Pause"
-msgstr "Pausa"
+msgstr "შეჩერება"
 
 #: src/lib/fcitx-utils/key.cpp:187
 msgctxt "Key name"
 msgid "Phone"
-msgstr "Telèfon"
+msgstr "ტელეფონი"
 
 #: src/lib/fcitx-utils/key.cpp:211
 msgctxt "Key name"
 msgid "Pictures"
-msgstr "Imatges"
+msgstr "სურათები"
 
 #: data/fcitx5-diagnose.sh:940
 msgid "Please check ${1} for how to install fcitx5."
@@ -2131,12 +2130,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:225
 msgctxt "Key name"
 msgid "Power Down"
-msgstr ""
+msgstr "გამორთვა"
 
 #: src/lib/fcitx-utils/key.cpp:144
 msgctxt "Key name"
 msgid "Power Off"
-msgstr "Apaga"
+msgstr "გამორთვა"
 
 #: src/lib/fcitx/instance.cpp:877
 msgid "Preedit"
@@ -2169,16 +2168,16 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:261
 msgctxt "Key name"
 msgid "Previous Candidate"
-msgstr "Candidat anterior"
+msgstr "წინა კანდიდატი"
 
 #: src/lib/fcitx-utils/key.cpp:237
 msgctxt "Key name"
 msgid "Print Screen"
-msgstr "Impr Pant"
+msgstr "ეკრანის დაბეჭდვა"
 
 #: src/lib/fcitx/globalconfig.cpp:37
 msgid "Program"
-msgstr ""
+msgstr "პროგრამა"
 
 #: data/fcitx5-diagnose.sh:1149
 msgid "Qt IM module files:"
@@ -2186,36 +2185,36 @@ msgstr ""
 
 #: src/modules/quickphrase/quickphrase.conf.in.in:2
 msgid "Quick Phrase"
-msgstr "Frase ràpida"
+msgstr ""
 
 #: src/modules/quickphrase/quickphrase.cpp:509
 msgid "Quick Phrase: "
-msgstr "Frase ràpida:"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:228
 msgctxt "Key name"
 msgid "Red"
-msgstr "Roig"
+msgstr "წითელი"
 
 #: src/lib/fcitx-utils/key.cpp:236
 msgctxt "Key name"
 msgid "Redo"
-msgstr "Refés"
+msgstr "გამეორება"
 
 #: src/lib/fcitx-utils/key.cpp:105
 msgctxt "Key name"
 msgid "Refresh"
-msgstr "Refresca"
+msgstr "განახლება"
 
 #: src/lib/fcitx-utils/key.cpp:189
 msgctxt "Key name"
 msgid "Reload"
-msgstr "Recarrega"
+msgstr "თავიდან ჩატვირთვა"
 
 #: src/lib/fcitx-utils/key.cpp:188
 msgctxt "Key name"
 msgid "Reply"
-msgstr "Respon"
+msgstr "პასუხი"
 
 #: src/lib/fcitx/globalconfig.cpp:184
 msgid "Reset state on Focus In"
@@ -2224,27 +2223,27 @@ msgstr ""
 #: src/ui/classic/xcbtraywindow.cpp:56
 #: src/modules/notificationitem/dbusmenu.cpp:262
 msgid "Restart"
-msgstr "Reinicia"
+msgstr "გადატვირთვა"
 
 #: src/lib/fcitx-utils/key.cpp:52
 msgctxt "Key name"
 msgid "Return"
-msgstr "Retorn"
+msgstr "Enter"
 
 #: src/lib/fcitx-utils/key.cpp:58
 msgctxt "Key name"
 msgid "Right"
-msgstr ""
+msgstr "მარჯვენა"
 
 #: src/lib/fcitx-utils/key.cpp:40
 msgctxt "Key name"
 msgid "Right Alt"
-msgstr "Alt dret"
+msgstr "მარჯვენა Alt"
 
 #: src/lib/fcitx-utils/key.cpp:44
 msgctxt "Key name"
 msgid "Right Control"
-msgstr "Control dret"
+msgstr "მარჯვენა Ctrl"
 
 #: src/lib/fcitx-utils/key.cpp:48
 msgctxt "Key name"
@@ -2254,32 +2253,32 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:42
 msgctxt "Key name"
 msgid "Right Shift"
-msgstr "Majúscules dret"
+msgstr "მარჯვენა Shift"
 
 #: src/lib/fcitx-utils/key.cpp:46
 msgctxt "Key name"
 msgid "Right Super"
-msgstr ""
+msgstr "მარჯვენა Super"
 
 #: src/lib/fcitx-utils/key.cpp:246
 msgctxt "Key name"
 msgid "Romaji"
-msgstr ""
+msgstr "რომაჯი"
 
 #: src/lib/fcitx-utils/key.cpp:190
 msgctxt "Key name"
 msgid "Rotate Windows"
-msgstr "Gira les finestres"
+msgstr "ფანჯრის შემობრუნება"
 
 #: src/lib/fcitx-utils/key.cpp:192
 msgctxt "Key name"
 msgid "Rotation KB"
-msgstr ""
+msgstr "KB-ის შემობრუნება"
 
 #: src/lib/fcitx-utils/key.cpp:191
 msgctxt "Key name"
 msgid "Rotation PB"
-msgstr ""
+msgstr "PB-ის შემობრუნება"
 
 #: data/fcitx5-diagnose.sh:916
 msgid "Running as root:"
@@ -2288,22 +2287,22 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:193
 msgctxt "Key name"
 msgid "Save"
-msgstr "Desa"
+msgstr "შენახვა"
 
 #: src/lib/fcitx-utils/key.cpp:147
 msgctxt "Key name"
 msgid "Screensaver"
-msgstr "Estalvi de pantalla"
+msgstr "ეკრანის დამცველი"
 
 #: src/lib/fcitx-utils/key.cpp:99
 msgctxt "Key name"
 msgid "ScrollLock"
-msgstr ""
+msgstr "ScrollLock"
 
 #: src/lib/fcitx-utils/key.cpp:117
 msgctxt "Key name"
 msgid "Search"
-msgstr "Cerca"
+msgstr "ძებნა"
 
 #: src/modules/clipboard/clipboard.h:77
 msgid "Seconds before clearing password"
@@ -2312,7 +2311,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:242
 msgctxt "Key name"
 msgid "Select"
-msgstr "Selecciona"
+msgstr "არჩევა"
 
 #: src/modules/imselector/imselector.cpp:257
 msgid "Select input method:"
@@ -2333,7 +2332,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:194
 msgctxt "Key name"
 msgid "Send"
-msgstr "Envia"
+msgstr "გაგზავნა"
 
 #: src/modules/wayland/waylandmodule.cpp:758
 msgid ""
@@ -2361,12 +2360,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:586
 msgctxt "Key name"
 msgid "Shift"
-msgstr "Majúscules"
+msgstr "Shift"
 
 #: src/lib/fcitx-utils/key.cpp:151
 msgctxt "Key name"
 msgid "Shop"
-msgstr ""
+msgstr "მაღაზია"
 
 #: src/lib/fcitx/globalconfig.cpp:199
 msgid "Show Input Method Information when changing focus"
@@ -2415,54 +2414,54 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:149
 msgctxt "Key name"
 msgid "Sleep"
-msgstr ""
+msgstr "ძილი"
 
 #: src/lib/fcitx-utils/key.cpp:49
 msgctxt "Key name"
 msgid "Space"
-msgstr "Espai"
+msgstr "ჰარე"
 
 #: src/ui/classic/theme.h:198
 msgid "Spacing"
-msgstr ""
+msgstr "გამოტოვება"
 
 #: src/im/keyboard/keyboard.h:92 src/modules/spell/spell.conf.in.in:2
 msgid "Spell"
-msgstr "Ortografia"
+msgstr "მართლწერა"
 
 #: src/lib/fcitx-utils/key.cpp:195
 msgctxt "Key name"
 msgid "Spellchecker"
-msgstr ""
+msgstr "სინტაქსის შემოწმება"
 
 #: src/lib/fcitx-utils/key.cpp:196
 msgctxt "Key name"
 msgid "Split Screen"
-msgstr ""
+msgstr "ეკრანის გაყოფა"
 
 #: src/lib/fcitx-utils/key.cpp:172
 msgctxt "Key name"
 msgid "Spreadsheet"
-msgstr "Full de càlcul"
+msgstr "ელცხრილი"
 
 #: src/lib/fcitx-utils/key.cpp:118
 msgctxt "Key name"
 msgid "Standby"
-msgstr ""
+msgstr "უქმე"
 
 #: data/org.fcitx.Fcitx5.desktop.in.in:4
 #: data/fcitx5-wayland-launcher.desktop.in.in:4
 msgid "Start Input Method"
-msgstr "Mètode d'entrada estàndard"
+msgstr ""
 
 #: src/modules/notificationitem/notificationitem.conf.in.in:2
 msgid "Status Notifier"
-msgstr "Notificador d'estat"
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:104
 msgctxt "Key name"
 msgid "Stop"
-msgstr "Atura"
+msgstr "გაჩერება"
 
 #: src/ui/classic/theme.h:206
 msgid "Sub Menu"
@@ -2471,31 +2470,31 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:219
 msgctxt "Key name"
 msgid "Subtitle"
-msgstr "Subtítol"
+msgstr "სუბტიტრები"
 
 #: src/im/keyboard/keyboard.h:46 src/modules/quickphrase/quickphrase.h:31
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/lib/fcitx-utils/key.cpp:587
 msgctxt "Key name"
 msgid "Super"
-msgstr ""
+msgstr "Super"
 
 #: src/lib/fcitx-utils/key.cpp:197
 msgctxt "Key name"
 msgid "Support"
-msgstr ""
+msgstr "მხარდაჭერა"
 
 #: src/lib/fcitx-utils/key.cpp:226
 msgctxt "Key name"
 msgid "Suspend"
-msgstr "Suspèn"
+msgstr "ძილი"
 
 #: src/lib/fcitx/instance.cpp:475 src/lib/fcitx/instance.cpp:704
 #: src/modules/xcb/xcbconnection.cpp:564
 msgid "Switch group"
-msgstr ""
+msgstr "ჯგუფის შეცვლა"
 
 #: src/lib/fcitx/instance.cpp:476 src/modules/xcb/xcbconnection.cpp:565
 #, c++-format
@@ -2514,7 +2513,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:241
 msgctxt "Key name"
 msgid "System Request"
-msgstr "Petició del sistema"
+msgstr "სისტემური მოთხოვნა"
 
 #: src/modules/unicode/charselectdata.cpp:227
 #, c++-format
@@ -2524,12 +2523,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:50
 msgctxt "Key name"
 msgid "Tab"
-msgstr "Tab"
+msgstr "ჩანართი"
 
 #: src/lib/fcitx-utils/key.cpp:198
 msgctxt "Key name"
 msgid "Task Panel"
-msgstr "Tauler de tasques"
+msgstr "დავალებების პანელი"
 
 #: src/lib/fcitx/globalconfig.cpp:78
 msgid "Temporarily Toggle Input Method"
@@ -2538,7 +2537,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:199
 msgctxt "Key name"
 msgid "Terminal"
-msgstr "Terminal"
+msgstr "ტერმინალი"
 
 #: data/fcitx5-diagnose.sh:1685
 #, sh-format
@@ -2561,7 +2560,7 @@ msgstr ""
 
 #: src/ui/classic/classicui.h:161
 msgid "Theme"
-msgstr ""
+msgstr "თემა"
 
 #: src/modules/xcb/xcbmodule.h:45
 msgid ""
@@ -2610,7 +2609,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:221
 msgctxt "Key name"
 msgid "Time"
-msgstr "Hora"
+msgstr "დრო"
 
 #: src/lib/fcitx/globalconfig.cpp:168
 msgid "Time limit in milliseconds for triggering modifier key shortcuts"
@@ -2635,53 +2634,53 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:200
 msgctxt "Key name"
 msgid "Tools"
-msgstr "Eines"
+msgstr "ხელსაწყოები"
 
 #: src/ui/classic/theme.h:54
 msgid "Top"
-msgstr ""
+msgstr "ზედა"
 
 #: src/ui/classic/theme.h:41
 msgid "Top Center"
-msgstr ""
+msgstr "ზედა ცენტრი"
 
 #: src/ui/classic/theme.h:41
 msgid "Top Left"
-msgstr ""
+msgstr "ზედა მარცხენა"
 
 #: src/lib/fcitx-utils/key.cpp:224
 msgctxt "Key name"
 msgid "Top Menu"
-msgstr ""
+msgstr "ზედა მენიუ"
 
 #: src/ui/classic/theme.h:42
 msgid "Top Right"
-msgstr ""
+msgstr "ზედა მარჯვენა"
 
 #: src/lib/fcitx-utils/key.cpp:277
 msgctxt "Key name"
 msgid "Touchpad Off"
-msgstr ""
+msgstr "თაჩპედის გამორთვა"
 
 #: src/lib/fcitx-utils/key.cpp:276
 msgctxt "Key name"
 msgid "Touchpad On"
-msgstr ""
+msgstr "თაჩპედის ჩართვა"
 
 #: src/lib/fcitx-utils/key.cpp:275
 msgctxt "Key name"
 msgid "Touchpad Toggle"
-msgstr ""
+msgstr "თაჩპედის ჩართ/გამორთ"
 
 #: src/lib/fcitx-utils/key.cpp:253
 msgctxt "Key name"
 msgid "Touroku"
-msgstr ""
+msgstr "ტუროკუ"
 
 #: src/lib/fcitx-utils/key.cpp:201
 msgctxt "Key name"
 msgid "Travel"
-msgstr ""
+msgstr "მოგზაურობა"
 
 #: src/ui/classic/classicui.h:130
 msgid "Tray Font"
@@ -2732,20 +2731,20 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:235
 msgctxt "Key name"
 msgid "Undo"
-msgstr "Desfés"
+msgstr "გაუქმება"
 
 #: src/modules/unicode/unicode.conf.in.in:2
 msgid "Unicode"
-msgstr "Unicode"
+msgstr "უნიკოდი"
 
 #: src/modules/unicode/unicode.cpp:491
 msgid "Unicode: "
-msgstr "Unicode: "
+msgstr ""
 
 #: src/lib/fcitx-utils/key.cpp:57
 msgctxt "Key name"
 msgid "Up"
-msgstr "Amunt"
+msgstr "მაღლა"
 
 #: src/frontend/xim/xim.h:32
 msgid "Use On The Spot Style (Needs restarting)"
@@ -2773,7 +2772,7 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:1577
 msgid "User Interface:"
-msgstr ""
+msgstr "მომხმარებლის ინტერფეისი:"
 
 #: data/fcitx5-diagnose.sh:986
 msgid "Using ${1} to check dbus."
@@ -2787,7 +2786,7 @@ msgstr ""
 
 #: src/ui/classic/theme.h:214
 msgid "Version"
-msgstr ""
+msgstr "ვერსია"
 
 #: data/fcitx5-diagnose.sh:1305 data/fcitx5-diagnose.sh:1389
 msgid "Version Line:"
@@ -2800,12 +2799,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:202
 msgctxt "Key name"
 msgid "Video"
-msgstr "Vídeo"
+msgstr "ვიდეო"
 
 #: src/lib/fcitx-utils/key.cpp:223
 msgctxt "Key name"
 msgid "View"
-msgstr "Visualitza"
+msgstr "ხედი"
 
 #: src/lib/fcitx-utils/key.cpp:278
 msgctxt "Key name"
@@ -2815,17 +2814,17 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:106
 msgctxt "Key name"
 msgid "Volume Down"
-msgstr "Abaixa el volum"
+msgstr "ხმის დაწევა"
 
 #: src/lib/fcitx-utils/key.cpp:107
 msgctxt "Key name"
 msgid "Volume Mute"
-msgstr "Silencia el volum"
+msgstr "ხმის დადუმება"
 
 #: src/lib/fcitx-utils/key.cpp:108
 msgctxt "Key name"
 msgid "Volume Up"
-msgstr "Apuja el volum"
+msgstr "ხმის აწევა"
 
 #: src/lib/fcitx-utils/key.cpp:148
 msgctxt "Key name"
@@ -2835,7 +2834,7 @@ msgstr "WWW"
 #: src/lib/fcitx-utils/key.cpp:145
 msgctxt "Key name"
 msgid "Wake Up"
-msgstr "Desperta"
+msgstr "გაღვიძება"
 
 #: data/fcitx5-diagnose.sh:1703
 msgid ""
@@ -2859,7 +2858,7 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:209
 msgctxt "Key name"
 msgid "WebCam"
-msgstr "Webcam"
+msgstr "ვებკამერა"
 
 #: src/modules/clipboard/clipboard.h:67
 msgid ""
@@ -2889,12 +2888,12 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:215
 msgctxt "Key name"
 msgid "Wireless"
-msgstr "Sense fil"
+msgstr "უსადენო"
 
 #: src/lib/fcitx-utils/key.cpp:203
 msgctxt "Key name"
 msgid "Word Processor"
-msgstr "Processador de text"
+msgstr "რედაქტორი"
 
 #: src/frontend/xim/xim.conf.in.in:2
 msgid "X Input Method Frontend"
@@ -2902,7 +2901,7 @@ msgstr ""
 
 #: src/modules/xcb/xcb.conf.in.in:2
 msgid "XCB"
-msgstr "XCB"
+msgstr ""
 
 #: data/fcitx5-diagnose.sh:825
 msgid "XDG SESSION TYPE:"
@@ -2946,11 +2945,11 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:230
 msgctxt "Key name"
 msgid "Yellow"
-msgstr "Groc"
+msgstr "ყვითელი"
 
 #: src/modules/xcb/xcbmodule.h:38
 msgid "Yes"
-msgstr ""
+msgstr "დიახ"
 
 #: data/fcitx5-diagnose.sh:924
 msgid ""
@@ -3012,22 +3011,22 @@ msgstr ""
 #: src/lib/fcitx-utils/key.cpp:250
 msgctxt "Key name"
 msgid "Zenkaku"
-msgstr ""
+msgstr "ზენკაკუ"
 
 #: src/lib/fcitx-utils/key.cpp:252
 msgctxt "Key name"
 msgid "Zenkaku Hankaku"
-msgstr ""
+msgstr "ზენკაკუ ჰანკაკუ"
 
 #: src/lib/fcitx-utils/key.cpp:205
 msgctxt "Key name"
 msgid "Zoom In"
-msgstr "Amplia el zoom"
+msgstr "გადიდება"
 
 #: src/lib/fcitx-utils/key.cpp:206
 msgctxt "Key name"
 msgid "Zoom Out"
-msgstr "Redueix el zoom"
+msgstr "დაპატარავება"
 
 #: data/fcitx5-diagnose.sh:936
 msgid "executable:"
@@ -3035,7 +3034,7 @@ msgstr ""
 
 #: data/fcitx5-diagnose.sh:757
 msgid "here"
-msgstr ""
+msgstr "აქ"
 
 #: src/lib/fcitx-utils/key.cpp:176
 msgctxt "Key name"
@@ -3062,9 +3061,9 @@ msgstr ""
 #: src/lib/fcitx/instance.cpp:434
 #, c++-format
 msgid "{0} (Not available)"
-msgstr "{0} (no disponible)"
+msgstr ""
 
 #: src/lib/fcitx/instance.cpp:431
 #, c++-format
 msgid "{0} ({1})"
-msgstr "{0} ({1})"
+msgstr ""
